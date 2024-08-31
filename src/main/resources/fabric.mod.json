@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "asteriarebirium",
+	"version": "${version}",
+	"name": "The Asteria-Rebirium Project",
+	"description": "The Asteria Rebirium project aims to alter the way minecraft is played and progressed to be something more unique and exploration packed",
+	"authors": [
+		"Starr4t, Nirobi, BlueBen8, Boomiscool, _gio14"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/the-asteria-rebirium-project/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.rat.asteriarebirium.TheAsteriaRebiriumProject"
+		],
+		"client": [
+			"net.rat.asteriarebirium.TheAsteriaRebiriumProjectClient"
+		],
+		"fabric-datagen": [
+			"net.rat.asteriarebirium.TheAsteriaRebiriumProjectDataGenerator"
+		]
+	},
+	"mixins": [
+		"the-asteria-rebirium-project.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
