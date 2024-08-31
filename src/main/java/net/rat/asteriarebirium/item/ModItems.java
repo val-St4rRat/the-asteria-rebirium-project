@@ -14,9 +14,11 @@ import net.rat.asteriarebirium.TheAsteriaRebiriumProject;
 public class ModItems {
 
     public static  final Item REBIRIUM_INGOT = registerItem("rebirium_ingot", new Item(new FabricItemSettings()));
+    public static final Item ASTERIA_TEAR = registerItem("asteria_tear", new Item(new FabricItemSettings()));
 
     public static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(REBIRIUM_INGOT);
+        entries.add(ASTERIA_TEAR);
     }
 
     public static Item registerItem(String name, Item item) {

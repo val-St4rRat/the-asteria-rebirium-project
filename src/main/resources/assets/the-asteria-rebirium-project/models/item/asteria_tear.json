@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "asteriarebirium:item/rebirium_ingot"
+    "layer0": "asteriarebirium:item/asteria_tear"
   }
 }
