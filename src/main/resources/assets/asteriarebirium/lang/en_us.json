@@ -3,6 +3,12 @@
   "item.asteriarebirium.asteria_tear": "Asteria Tear",
   "item.asteriarebirium.star_key": "Star Key",
   "item.asteriarebirium.phoenix_smithing_template": "Phoenix Smithing Template",
+  "item.asteriarebirium.theiasteel": "Theiasteel",
+  "item.asteriarebirium.rebirium_sword": "Rebirium Sword",
+  "item.asteriarebirium.rebirium_shovel": "Rebirium Shovel",
+  "item.asteriarebirium.rebirium_hoe": "Rebirium Hoe",
+  "item.asteriarebirium.rebirium_pickaxe": "Rebirium Pickaxe",
+  "item.asteriarebirium.rebirium_axe": "Rebirium Axe",
 
   "itemgroup.rebirium": "Rebirium"
 }

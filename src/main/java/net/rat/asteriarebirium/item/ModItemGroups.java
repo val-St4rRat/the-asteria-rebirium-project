@@ -19,6 +19,11 @@ public class ModItemGroups {
                         entries.add(ModItems.REBIRIUM_INGOT);
                         entries.add(ModItems.PHOENIX_SMITHING_TEMPLATE);
                         entries.add(ModItems.STAR_KEY);
+                        entries.add(ModItems.REBIRIUM_AXE);
+                        entries.add(ModItems.REBIRIUM_HOE);
+                        entries.add(ModItems.REBIRIUM_PICKAXE);
+                        entries.add(ModItems.REBIRIUM_SWORD);
+                        entries.add(ModItems.REBIRIUM_SHOVEL);
                     }).build());
 
 
