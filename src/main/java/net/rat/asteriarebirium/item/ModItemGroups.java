@@ -18,6 +18,7 @@ public class ModItemGroups {
 
                         entries.add(ModItems.REBIRIUM_INGOT);
                         entries.add(ModItems.PHOENIX_SMITHING_TEMPLATE);
+                        entries.add(ModItems.STAR_KEY);
                     }).build());
 
 
