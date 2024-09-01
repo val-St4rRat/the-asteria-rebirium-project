@@ -16,11 +16,13 @@ public class ModItems {
     public static  final Item REBIRIUM_INGOT = registerItem("rebirium_ingot", new Item(new FabricItemSettings()));
     public static final Item ASTERIA_TEAR = registerItem("asteria_tear", new Item(new FabricItemSettings()));
     public static final Item STAR_KEY = registerItem("star_key", new Item(new FabricItemSettings()));
+    public static final Item PHOENIX_SMITHING_TEMPLATE = registerItem("phoenix_smithing_template", new Item(new FabricItemSettings()));
 
     public static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(REBIRIUM_INGOT);
         entries.add(ASTERIA_TEAR);
         entries.add(STAR_KEY);
+        entries.add(PHOENIX_SMITHING_TEMPLATE);
     }
 
     public static Item registerItem(String name, Item item) {
