@@ -26,6 +26,8 @@ public class ModItems {
 
     public static final Item DEATHROCKET = registerItem("deathrocket", new CrossbowItem(new FabricItemSettings()));
 
+
+
     public static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(REBIRIUM_INGOT);
         entries.add(ASTERIA_TEAR);
