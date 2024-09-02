@@ -9,6 +9,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.rat.asteriarebirium.TheAsteriaRebiriumProject;
+import net.rat.asteriarebirium.custom.ModArmorItem;
 
 public class ModItems {
 
@@ -25,6 +26,16 @@ public class ModItems {
     public static final Item REBIRIUM_SHOVEL = registerItem("rebirium_shovel", new ShovelItem(ModToolMaterial.REBIRIUM_INGOT, 2, 2f, new FabricItemSettings()));
 
     public static final Item DEATHROCKET = registerItem("deathrocket", new CrossbowItem(new FabricItemSettings()));
+
+    public static final Item REBIRIUM_CHESTPLATE = registerItem("rebirium_chestplate", new ModArmorItem(ModArmorMaterials.REBIRIUM, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item REBIRIUM_HELMET = registerItem("rebirium_helmet", new ArmorItem(ModArmorMaterials.REBIRIUM, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item REBIRIUM_PANTS = registerItem("rebirium_pants", new ArmorItem(ModArmorMaterials.REBIRIUM, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item REBIRIUM_BOOTS = registerItem("rebirium_boots", new ArmorItem(ModArmorMaterials.REBIRIUM, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
+    public static final Item THEIASTEEL_CHESTPLATE = registerItem("theiasteel_chestplate", new ModArmorItem(ModArmorMaterials.THEIASTEEL, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item THEIASTEEL_BOOTS = registerItem("theiasteel_boots", new ArmorItem(ModArmorMaterials.THEIASTEEL, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+    public static final Item THEIASTEEL_LEGGINGS = registerItem("theiasteel_leggings", new ArmorItem(ModArmorMaterials.THEIASTEEL, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item THEIASTEEL_SKULLCAP = registerItem("theiasteel_skullcap", new ArmorItem(ModArmorMaterials.THEIASTEEL, ArmorItem.Type.HELMET, new FabricItemSettings()));
 
 
 

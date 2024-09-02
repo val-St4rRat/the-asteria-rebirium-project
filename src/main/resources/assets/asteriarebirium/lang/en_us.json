@@ -3,14 +3,26 @@
   "item.asteriarebirium.asteria_tear": "Asteria Tear",
   "item.asteriarebirium.star_key": "Star Key",
   "item.asteriarebirium.phoenix_smithing_template": "Phoenix Smithing Template",
+  "item.asteriarebirium.theiasteel_skullcap": "Theiasteel Skullcap",
+  "item.asteriarebirium.theiasteel_chestplate": "Theiasteel Chestplate",
+  "item.asteriarebirium.theiasteel_leggings": "Theiasteel Leggings",
+  "item.asteriarebirium.theiasteel_boots": "Theiasteel Boots",
   "item.asteriarebirium.theiasteel": "Theiasteel",
   "item.asteriarebirium.rebirium_sword": "Rebirium Sword",
   "item.asteriarebirium.rebirium_shovel": "Rebirium Shovel",
   "item.asteriarebirium.rebirium_hoe": "Rebirium Hoe",
   "item.asteriarebirium.rebirium_pickaxe": "Rebirium Pickaxe",
   "item.asteriarebirium.rebirium_axe": "Rebirium Axe",
+  "item.asteriarebirium.rebirium_pants": "Rebirium Pants",
+  "item.asteriarebirium.rebirium_helmet": "Rebirium Helmet",
+  "item.asteriarebirium.rebirium_chestplate": "Rebirium Chestplate",
+  "item.asteriarebirium.rebirium_boots": "Rebirium Boots",
+
+
+
+
 
   "item.asteriarebirium.deathrocket": "DeathRocket",
 
-  "itemgroup.rebirium": "Rebirium"
+  "itemgroup.asteria_rebirium": "Asteria-Rebirium"
 }

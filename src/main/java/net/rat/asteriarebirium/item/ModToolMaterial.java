@@ -6,9 +6,9 @@ import net.minecraft.recipe.Ingredient;
 import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
-    REBIRIUM_INGOT(5, 7263, 10f, 4, 6, 26,
+    REBIRIUM_INGOT(5, 2300, 10f, 4, 6, 26,
             () -> Ingredient.ofItems(ModItems.REBIRIUM_INGOT)),
-    THEIASTEEL(7, 8000, 10f, 4, 6, 30,
+    THEIASTEEL(7, 2800, 10f, 4, 6, 30,
             () -> Ingredient.ofItems(ModItems.THEIASTEEL));
 
     private final int miningLevel;
