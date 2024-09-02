@@ -25,5 +25,6 @@ public class ModModelProvider extends FabricModelProvider {
     itemModelGenerator.register(ModItems.REBIRIUM_SWORD, Models.HANDHELD);
     itemModelGenerator.register(ModItems.REBIRIUM_HOE, Models.HANDHELD);
     itemModelGenerator.register(ModItems.REBIRIUM_SHOVEL, Models.HANDHELD);
+    itemModelGenerator.register(ModItems.DEATHROCKET, Models.HANDHELD);
     }
 }

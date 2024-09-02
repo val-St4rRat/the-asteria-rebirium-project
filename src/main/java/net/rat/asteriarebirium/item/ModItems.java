@@ -24,6 +24,8 @@ public class ModItems {
     public static final Item REBIRIUM_HOE = registerItem("rebirium_hoe", new HoeItem(ModToolMaterial.REBIRIUM_INGOT, 1, 2f, new FabricItemSettings()));
     public static final Item REBIRIUM_SHOVEL = registerItem("rebirium_shovel", new ShovelItem(ModToolMaterial.REBIRIUM_INGOT, 2, 2f, new FabricItemSettings()));
 
+    public static final Item DEATHROCKET = registerItem("deathrocket", new CrossbowItem(new FabricItemSettings()));
+
     public static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(REBIRIUM_INGOT);
         entries.add(ASTERIA_TEAR);
