@@ -11,8 +11,8 @@ import net.rat.asteriarebirium.TheAsteriaRebiriumProject;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    REBIRIUM("rebirium", 4, new int[] {4, 9, 6, 4}, 20, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 2f, 0.1f, () -> Ingredient.ofItems(ModItems.REBIRIUM_INGOT)),
-    THEIASTEEL("theiasteel", 4, new int[] {6, 12, 8, 6}, 20, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3f, 0.3f, () -> Ingredient.ofItems(ModItems.THEIASTEEL));
+    REBIRIUM("rebirium", 4, new int[] {4, 9, 6, 4}, 20, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3f, 0.3f, () -> Ingredient.ofItems(ModItems.REBIRIUM_INGOT)),
+    THEIASTEEL("theiasteel", 4, new int[] {6, 12, 8, 6}, 20, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3f, 0.4f, () -> Ingredient.ofItems(ModItems.THEIASTEEL));
 
     private final String name;
     private final int durabilityMultiplier;
